@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "path": "/api/qr",
+      "target": "https://coding-challenge-go-api.onrender.com",
+      "auth": true
+    },
+    {
+      "path": "/api/auth/login",
+      "target": "https://coding-challenge-node-api.onrender.com",
+      "auth": false
+    },
+    {
+      "path": "/api/auth/register",
+      "target": "https://coding-challenge-node-api.onrender.com",
+      "auth": true
+    },
+    {
+      "path": "/api/statistics",
+      "target": "https://coding-challenge-node-api.onrender.com",
+      "auth": true
+    }
+  ]
+}
