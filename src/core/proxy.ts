@@ -40,6 +40,6 @@ export async function proxyHandler(req: Request, res: Response) {
   } catch (err: any) {
     res
       .status(err.response?.status || 500)
-      .json({ error: err.message });
+      .json({ error: err.response.data.error ?? err.message });
   }
 }
