@@ -2,22 +2,22 @@
   "routes": [
     {
       "path": "/api/qr",
-      "target": "https://coding-challenge-go-api.onrender.com",
+      "target": "https://matrix-app-api-go.onrender.com",
       "auth": true
     },
     {
       "path": "/api/auth/login",
-      "target": "https://coding-challenge-node-api.onrender.com",
+      "target": "https://matrix-app-api-node.onrender.com",
       "auth": false
     },
     {
       "path": "/api/auth/register",
-      "target": "https://coding-challenge-node-api.onrender.com",
+      "target": "https://matrix-app-api-node.onrender.com",
       "auth": true
     },
     {
       "path": "/api/statistics",
-      "target": "https://coding-challenge-node-api.onrender.com",
+      "target": "https://matrix-app-api-node.onrender.com",
       "auth": true
     }
   ]
